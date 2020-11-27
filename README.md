@@ -34,3 +34,23 @@ May be used instead of the builtin `echo` command inside blocks to avoid syntax 
 ```bat
 %FmtPrint% "Message"
 ```
+
+## Logging
+
+### Loading
+
+```bat
+%LnkLoad% "log"
+```
+
+### Error
+
+```bat
+%LogError% "Message"
+```
+
+### Info
+
+```bat
+%LogInfo% "Message"
+```
