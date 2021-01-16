@@ -54,3 +54,35 @@ May be used instead of the builtin `echo` command inside blocks to avoid syntax 
 ```bat
 %LogInfo% "Message"
 ```
+
+## Timer
+
+### Loading
+
+```bat
+%LnkLoad% "timer"
+```
+
+### Start
+
+Start or restart the timer.
+
+```bat
+%TimerStart%
+```
+
+### End
+
+Stop the timer.
+
+```bat
+%TimerEnd%
+```
+
+### Diff
+
+Show the elapsed time.
+
+```bat
+%TimerDiff%
+```
