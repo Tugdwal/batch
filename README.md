@@ -18,3 +18,19 @@ Load a library. If a library fails to load, it returns immediately and errorleve
 %LnkLoad% "log"
 if ERRORLEVEL 1 ( exit /B )
 ```
+
+## Format
+
+### Loading
+
+```bat
+%LnkLoad% "format"
+```
+
+### Print
+
+May be used instead of the builtin `echo` command inside blocks to avoid syntax errors when writing parenthesis.
+
+```bat
+%FmtPrint% "Message"
+```
