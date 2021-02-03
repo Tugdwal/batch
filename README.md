@@ -232,3 +232,11 @@ if ERRORLEVEL 1 ( exit /B 0 )
 if ERRORLEVEL 2 ( exit /B 1 )
 if ERRORLEVEL 1 ( exit /B 0 )
 ```
+
+## Command parser
+
+### Loading
+
+```bat
+%LnkLoad% "command"
+```
